@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Editor</title>
+    <link rel="stylesheet" href="text.css">
+</head>
+<body>
+    
+    <div class="heading">
+    </div>
+
+    <h1 id="head">Basic Text Editor</h1>
+    <div class="container">
+    
+       
+        <div class="options">
+          
+          <button id="BOLD" class="editoptions format"><i class="fa-solid fa-bold"></i> </button>
+          <button id="ITALIC" class="editoptions format"><i class="fa-solid fa-italic"></i></button>
+          <button id="UNDERLINE" class="editoptions format"><i class="fa-solid fa-underline"></i></button>
+        
+          <button id="UNDO" class="editoptions"><i class="fa-solid fa-rotate-left"></i></button>
+          <button id="REDO" class="editoptions"><i class="fa-solid fa-rotate-right"></i></button>
+          
+
+          <select id="fontName" class="adv-editoptions"></select>
+          <select id="fontSize" class="adv-editoptions"></select>
+       
+        </div>
+        <div id="text-box" contenteditable="true"></div>
+      </div>
+
+    <script src="https://kit.fontawesome.com/89beb80438.js" crossorigin="anonymous"></script> 
+   
+    <script src="text.js"></script>  
+</body>
+
+</html>
